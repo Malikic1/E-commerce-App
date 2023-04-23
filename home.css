@@ -1,0 +1,301 @@
+@import url("https://fonts.googleapis.com/css2?family=Sofia&display=swap");
+
+body {
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  background-color: rgb(245, 245, 245);
+}
+#menu_btn,
+button,
+input {
+  border: none;
+}
+a {
+  text-decoration: none;
+}
+p {
+  margin-top: 2px;
+  margin-bottom: 2px;
+}
+.col1,
+.nav1 li a {
+  color: #757575;
+}
+small,
+.nav1 li a {
+  font-size: 0.9rem;
+}
+.flex {
+  display: flex;
+}
+.f-dir {
+  flex-direction: column;
+}
+.grid {
+  display: grid;
+}
+.col {
+  color: dimgray;
+}
+.col1 {
+  color: blueviolet;
+}
+.rel {
+  position: relative;
+}
+.align-self {
+  align-self: center;
+}
+.col3 {
+  color: goldenrod;
+}
+.strike {
+  text-decoration: line-through;
+}
+ul {
+  list-style: none;
+  margin: 0%;
+}
+.fs-sm {
+  font-size: 0.8rem;
+}
+.fs-1 {
+  font-size: 1rem;
+}
+.i {
+  font-size: 1.2rem;
+}
+.fs-2 {
+  font-size: 2rem;
+}
+.gap-sm {
+  gap: 1rem;
+}
+aside {
+  background-color: #ececec;
+  height: 1.2rem;
+  top: 0;
+}
+aside,
+header {
+  width: 100%;
+  position: fixed;
+  padding: 10px 0px 5px 5%;
+  z-index: 2;
+}
+header {
+  top: 2rem;
+  background-color: whitesmoke;
+  height: 3rem;
+  border-bottom: solid #dddddd 2px;
+}
+header button,
+aside button {
+  background-color: transparent;
+  font-size: 1.1rem;
+  margin-right: px;
+}
+.brand {
+  font-size: 1.5rem !important;
+  font-weight: bolder;
+  color: dimgray !important;
+  top: -15px;
+  font-family: "Sofia", cursive;
+}
+
+#menu_btn {
+  display: none;
+  font-size: 1.5rem;
+  background-color: rgb(13, 12, 12);
+  color: white;
+  position: absolute;
+  top: 1.2rem;
+  right: 7%;
+}
+.nav {
+  position: absolute;
+  right: 9%;
+}
+.nav1 {
+  margin-left: 20%;
+  margin-top: 0.8rem;
+}
+
+.nav1 li {
+  display: inline;
+  margin-left: 8px;
+  font-weight: 600;
+}
+main {
+  padding: 20px 5% 0 5%;
+  margin-top: 5rem;
+}
+.container1 h1 {
+  font-size: 4rem;
+}
+.f-family {
+  font-family: cursive;
+}
+.btn {
+  width: 8rem;
+  padding: 12px 5px 12px 5px;
+  background-color: blueviolet;
+  border-radius: 5px;
+  color: white;
+}
+.aside {
+  width: 9.5rem;
+  height: 9.5rem;
+  border-radius: 50%;
+  background-color: #ececec;
+  text-align: center;
+  top: -5rem;
+  left: 10rem;
+}
+.container1 .aside p:nth-of-type(1) {
+  padding-top: 1.9rem;
+  padding-left: 1.7rem;
+}
+
+.fs-3 {
+  font-size: 3rem;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+.date {
+  border: solid blueviolet 1px;
+  border-radius: 2px;
+  font-size: 1rem;
+  padding: 2px 3px;
+  transform: rotate(-90deg);
+  width: fit-content;
+  top: -4rem;
+  left: -0.7rem;
+}
+.container1 {
+  gap: 1rem;
+}
+.container1 section:nth-of-type(1) {
+  width: 23rem;
+}
+.container1 section:nth-of-type(2) {
+  width: calc(100% - 23rem);
+}
+.hero {
+  width: 100%;
+}
+.container2 {
+  width: 100%;
+  justify-content: space-evenly;
+  background-color: #ececec;
+  left: 0%;
+  position: absolute;
+}
+.container2 section {
+  width: 13rem;
+}
+.grid-col-3 {
+  grid-template-columns: repeat(3, 0fr);
+  justify-content: space-evenly;
+}
+
+.grid-col-3 section {
+  width: 14rem;
+}
+.grid-col-4 {
+  grid-template-columns: repeat(4, 0fr);
+  justify-content: space-evenly;
+  row-gap: 1rem;
+}
+.img {
+  width: 100%;
+  border-radius: 5px;
+}
+.grid-col-3 button {
+  top: -3.2rem;
+  margin-left: calc((14rem - 8rem) / 2);
+}
+.btn-1 {
+  background-color: transparent;
+}
+.text-center {
+  text-align: center;
+}
+.product-card {
+  width: 11rem;
+  background-color: white;
+
+  border-radius: 10px;
+  padding: 10px 5% 10px 5%;
+}
+.div1 {
+  width: 80%;
+}
+.div2 {
+  width: 20%;
+  text-align: right;
+}
+.product-img {
+  width: 100%;
+  border-radius: 8px;
+}
+.product-price {
+  font-weight: 900;
+}
+.btn-2 {
+  width: 6rem;
+  padding: 10px 3px 10px 3px;
+  margin-left: calc((100% - 6rem) / 2);
+  margin-top: 1rem;
+}
+
+#section2,
+#section3,
+#sec2,
+#sec3 {
+  display: none;
+}
+
+footer {
+  padding: 20px 2% 10px 2%;
+  background-color: #757575;
+  color: #aaaaaa;
+}
+footer li {
+  margin-top: 0.2rem;
+}
+footer li a {
+  color: #b6b3b3;
+  font-size: 0.85rem;
+}
+.column4,
+.column1 {
+  width: 30%;
+}
+.column2 {
+  width: 20%;
+}
+input {
+  height: 2rem;
+  margin-top: 0.5rem;
+  border-radius: 5px;
+  padding-left: 1rem;
+}
+@media screen and (min-width: 1200px) {
+  .container1 {
+    width: 100%;
+    justify-content: space-evenly;
+  }
+
+  .container1 section:nth-of-type(2) {
+    width: 540px;
+
+    float: right;
+  }
+  .hero {
+    width: 100%;
+  }
+}

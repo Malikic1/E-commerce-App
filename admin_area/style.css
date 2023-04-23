@@ -1,0 +1,153 @@
+@import url("https://fonts.googleapis.com/css2?family=Sofia&display=swap");
+
+body {
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  background-color: rgb(245, 245, 245);
+}
+#menu_btn,
+button,
+input {
+  border: none;
+}
+a {
+  text-decoration: none;
+}
+p {
+  margin-top: 2px;
+  margin-bottom: 2px;
+}
+.col1,
+.nav1 li a {
+  color: #757575;
+}
+small,
+.nav1 li a {
+  font-size: 0.9rem;
+}
+.flex {
+  display: flex;
+}
+.f-dir {
+  flex-direction: column;
+}
+.grid {
+  display: grid;
+}
+.col {
+  color: dimgray;
+}
+.col1 {
+  color: blueviolet;
+}
+.rel {
+  position: relative;
+}
+.align-self {
+  align-self: center;
+}
+.text-center {
+  text-align: center;
+}
+.col3 {
+  color: goldenrod;
+}
+.strike {
+  text-decoration: line-through;
+}
+ul {
+  list-style: none;
+  margin: 0%;
+}
+.fs-sm {
+  font-size: 0.8rem;
+}
+.fs-1 {
+  font-size: 1rem;
+}
+.i {
+  font-size: 1.2rem;
+}
+.fs-2 {
+  font-size: 2rem;
+}
+.gap-sm {
+  gap: 1rem;
+}
+header {
+  width: 90%;
+  background-color: rgb(233, 233, 233);
+  position: fixed;
+  justify-content: space-between;
+  top: 0;
+  height: 3rem;
+  padding: 10px 5% 5px 5%;
+  z-index: 2;
+  border-bottom: solid #dddddd 2px;
+}
+header button,
+aside button {
+  background-color: transparent;
+  font-size: 1.1rem;
+  margin-right: px;
+}
+.brand {
+  font-size: 1.5rem !important;
+  font-weight: bolder;
+  color: dimgray !important;
+  top: -15px;
+  font-family: "Sofia", cursive;
+}
+
+#menu_btn {
+  display: none;
+  font-size: 1.5rem;
+  background-color: rgb(13, 12, 12);
+  color: white;
+  position: absolute;
+  top: 1.2rem;
+  right: 7%;
+}
+main {
+  padding: 5px 5% 0 5%;
+  margin-top: 3.5rem;
+}
+.hero {
+  width: 10rem;
+}
+.sec_btn,
+.sec button {
+  margin-bottom: 10px;
+  background-color: aqua;
+}
+.sec button {
+  font-size: larger;
+  padding: 5px 12px 5px 12px;
+  border-top: solid #4b3434 1px;
+  border-bottom: solid #4b3434 1px;
+}
+.sec button a {
+  color: #4b3434;
+}
+.section {
+  padding-top: 20px;
+}
+.sec_input {
+  width: 80%;
+  margin-bottom: 10px;
+  font-size: 1.2rem;
+  border: solid #757575 1px;
+}
+.sec_btn {
+  font-size: 0.9rem;
+  border: solid #757575 1px;
+}
+.sec_input,
+.sec_btn {
+  padding: 7px 10px 7px 10px;
+  margin-left: 10%;
+  border-radius: 4px;
+}
