@@ -144,6 +144,7 @@ main {
 .sec_btn {
   font-size: 0.9rem;
   border: solid #757575 1px;
+  font-weight: 600;
 }
 .sec_input,
 .sec_btn {

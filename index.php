@@ -1,3 +1,7 @@
+<?php
+  include('include/config.php');
+?>
+
 <!DOCTYPE html>
 <html>
   <head>
@@ -52,13 +56,13 @@
           SJC-<i class="fa-solid fa-shop"></i>
         </h1>
       </div>
-      <div class="flex nav1 hide" id="nav">
+      <div class="flex nav1" id="nav">
         <nav>
           <ul>
             <li>
               <a href="" class="col"><b>Home</b></a>
             </li>
-            <li><a href="">Categories</a></li>
+            <li><a id="category">Categories</a></li>
             <li><a href="">Great Deal</a></li>
             <li><a href="">About Us</a></li>
             <li><a href="">Contact Us</a></li>
@@ -74,6 +78,33 @@
       </div>
     </header>
     <main>
+
+    <section class="categories hide" id="cat">
+      <h2 class="col1 rel">Categories</h2>
+      <?php
+        $selectCategory= mysqli_query($conn, "SELECT * FROM categories");
+        while ( $row_data = mysqli_fetch_assoc($selectCategory)) {
+          $category_title = $row_data['category_title'];
+          $category_id = $row_data['category_id'];
+          echo   "<ul><li class='nav-item i text-center'>
+                    <a href='index.php?category=$category_id' class='col'>$category_title</a>
+                  </li></ul>"  ;
+          
+        }   
+      ?>    
+       <h2 class="col1 rel">Brands</h2>
+      <?php
+        $selectBrand= mysqli_query($conn, "SELECT * FROM brands");
+        while ( $row_data = mysqli_fetch_assoc($selectBrand)) {
+          $brand_title = $row_data['brand_title'];
+          $brand_id = $row_data['brand_id'];
+          echo   "<ul><li class='nav-item i text-center'>
+                    <a href='index.php?brand=$brand_title' class='col'>$brand_title</a>
+                  </li></ul>";
+         }  
+        ?>       
+    </section>
+
       <div class="flex container1">
         <section>
           <h1>
@@ -146,7 +177,7 @@
           <button class="btn rel">Shop Now</button>
         </section>
         <section>
-          <img src="img4.jpeg" alt="" class="img" />
+          <img src="image/img4.jpeg" alt="" class="img" />
           <button class="btn rel">Shop Now</button>
         </section>
       </div>

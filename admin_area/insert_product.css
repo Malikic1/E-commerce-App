@@ -1,0 +1,40 @@
+body {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+.text-center {
+  text-align: center;
+}
+.section {
+  padding-top: 20px;
+}
+
+.sec_input {
+  width: 50%;
+  margin-top: 5px;
+  margin-bottom: 15px;
+  font-size: 1.05rem;
+  font-weight: 400;
+  border: solid #c0b6b6 1px;
+  padding: 5px 10px 5px 10px;
+}
+.sec_btn {
+  font-size: 1rem;
+  border: solid #757575 1px;
+  font-weight: 600;
+  background-color: aqua;
+  padding: 8px 12px 8px 12px;
+}
+label,
+.sec_input,
+.sec_btn {
+  margin-left: 25%;
+  color: #535353;
+}
+label {
+  font-size: 1.1rem !important;
+}
+.sec_input,
+.sec_btn {
+  border-radius: 4px;
+}

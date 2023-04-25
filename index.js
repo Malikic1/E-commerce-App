@@ -55,3 +55,10 @@ show4.addEventListener("click", function () {
   sec3.style.display = "none";
   console.log("clicked-1");
 });
+
+var category = document.getElementById("category");
+var categorySlide = document.getElementById("cat");
+category.addEventListener("click", function () {
+  categorySlide.classList.toggle("hide");
+  console.log("clicked-2");
+});

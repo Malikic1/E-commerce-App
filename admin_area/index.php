@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>SJC</title>
+    <title>SJC-Admin Portal</title>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0," />
     <meta http-equiv="X-UA compatible" content="i.e-edge" />
@@ -40,7 +40,7 @@
           <img src="hero.jpeg" alt="" class="hero" />
         </section>
         <section class="sec align-self text-center">
-          <button><a href="index.php?insert_product">Insert Product</a></button>
+          <button><a href="insert_product.php">Insert Product</a></button>
           <button><a href="index.php?view_product">View Product</a></button>
           <button><a href="index.php?insert_category">Insert Categories</a></button>
           <button><a href="index.php?view_categories">View Categories</a></button>
