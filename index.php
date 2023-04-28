@@ -197,279 +197,91 @@
           </p>
         </section>
         <br /><br />
+
         <section class="grid grid-col-4" id="sec1">
-          <div class="product-card">
-            <div class="text-center">
-              <img src="image/img1.jpeg" alt="" class="product-img" />
-            </div>
-            <div class="flex rel">
-              <div class="div1">
-                <p class="product-name col fs-sm">Long Sleeve Casual for Men</p>
-                <span>
-                  <small class="product-price">$15.25</small>
-                  <span class="col fs-sm">
-                    <span class="strike">$30.50</span>
-                    -50%</span
-                  > </span
-                ><br />
-                <p class="rating fs-sm">
-                  <i class="fa-solid fa-star col3"></i>
-                  <i class="fa-solid fa-star col3"></i>
-                  <i class="fa-solid fa-star col3"></i>
-                  <i class="fa-solid fa-star col3"></i>
-                  <i class="fa-solid fa-star col3"></i>
-                  (100)
-                </p>
-              </div>
-              <div class="div2">
-                <button class="wish btn-1 fs-1 col1">
-                  <i class="fa-regular fa-heart"></i>
-                </button>
-                <br /><br />
-                <button class="btn-1 fs-1 col1 cart-add">
-                  <i class="fa-solid fa-cart-plus"></i>
-                </button>
-              </div>
-            </div>
-          </div>
-          <div class="product-card">
-            <div class="text-center">
-              <img src="image/img2.jpeg" alt="" class="product-img" />
-            </div>
-            <div class="flex rel">
-              <div class="div1">
-                <p class="product-name col fs-sm">Long Sleeve Casual for Men</p>
-                <span>
-                  <small class="product-price">$15.25</small>
-                  <span class="col fs-sm">
-                    <span class="strike">$30.50</span>
-                    -50%</span
-                  > </span
-                ><br />
-                <p class="rating fs-sm">
-                  <i class="fa-solid fa-star col3"></i>
-                  <i class="fa-solid fa-star col3"></i>
-                  <i class="fa-solid fa-star col3"></i>
-                  <i class="fa-solid fa-star col3"></i>
-                  <i class="fa-solid fa-star col3"></i>
-                  (100)
-                </p>
-              </div>
-              <div class="div2">
-                <button class="wish btn-1 fs-1 col1">
-                  <i class="fa-regular fa-heart"></i>
-                </button>
-                <br /><br />
-                <button class="btn-1 fs-1 col1 cart-add">
-                  <i class="fa-solid fa-cart-plus"></i>
-                </button>
-              </div>
-            </div>
-          </div>
-          <div class="product-card">
-            <div class="text-center">
-              <img src="image/img3.jpeg" alt="" class="product-img" />
-            </div>
-            <div class="flex rel">
-              <div class="div1">
-                <p class="product-name col fs-sm">Long Sleeve Casual for Men</p>
-                <span>
-                  <small class="product-price">$15.25</small>
-                  <span class="col fs-sm">
-                    <span class="strike">$30.50</span>
-                    -50%</span
-                  > </span
-                ><br />
-                <p class="rating fs-sm">
-                  <i class="fa-solid fa-star col3"></i>
-                  <i class="fa-solid fa-star col3"></i>
-                  <i class="fa-solid fa-star col3"></i>
-                  <i class="fa-solid fa-star col3"></i>
-                  <i class="fa-solid fa-star col3"></i>
-                  (100)
-                </p>
-              </div>
-              <div class="div2">
-                <button class="wish btn-1 fs-1 col1">
-                  <i class="fa-regular fa-heart"></i>
-                </button>
-                <br /><br />
-                <button class="btn-1 fs-1 col1 cart-add">
-                  <i class="fa-solid fa-cart-plus"></i>
-                </button>
-              </div>
-            </div>
-          </div>
-          <div class="product-card">
-            <div class="text-center">
-              <img src="image/img3.jpeg" alt="" class="product-img" />
-            </div>
-            <div class="flex rel">
-              <div class="div1">
-                <p class="product-name col fs-sm">Long Sleeve Casual for Men</p>
-                <span>
-                  <small class="product-price">$15.25</small>
-                  <span class="col fs-sm">
-                    <span class="strike">$30.50</span>
-                    -50%</span
-                  > </span
-                ><br />
-                <p class="rating fs-sm">
-                  <i class="fa-solid fa-star col3"></i>
-                  <i class="fa-solid fa-star col3"></i>
-                  <i class="fa-solid fa-star col3"></i>
-                  <i class="fa-solid fa-star col3"></i>
-                  <i class="fa-solid fa-star col3"></i>
-                  (100)
-                </p>
-              </div>
-              <div class="div2">
-                <button class="wish btn-1 fs-1 col1">
-                  <i class="fa-regular fa-heart"></i>
-                </button>
-                <br /><br />
-                <button class="btn-1 fs-1 col1 cart-add">
-                  <i class="fa-solid fa-cart-plus"></i>
-                </button>
-              </div>
-            </div>
-          </div>
-          <div class="product-card">
-            <div class="text-center">
-              <img src="image/img3.jpeg" alt="" class="product-img" />
-            </div>
-            <div class="flex rel">
-              <div class="div1">
-                <p class="product-name col fs-sm">Long Sleeve Casual for Men</p>
-                <span>
-                  <small class="product-price">$15.25</small>
-                  <span class="col fs-sm">
-                    <span class="strike">$30.50</span>
-                    -50%</span
-                  > </span
-                ><br />
-                <p class="rating fs-sm">
-                  <i class="fa-solid fa-star col3"></i>
-                  <i class="fa-solid fa-star col3"></i>
-                  <i class="fa-solid fa-star col3"></i>
-                  <i class="fa-solid fa-star col3"></i>
-                  <i class="fa-solid fa-star col3"></i>
-                  (100)
-                </p>
-              </div>
-              <div class="div2">
-                <button class="wish btn-1 fs-1 col1">
-                  <i class="fa-regular fa-heart"></i>
-                </button>
-                <br /><br />
-                <button class="btn-1 fs-1 col1 cart-add">
-                  <i class="fa-solid fa-cart-plus"></i>
-                </button>
-              </div>
-            </div>
-          </div>
-          <div class="product-card">
-            <div class="text-center">
-              <img src="image/img3.jpeg" alt="" class="product-img" />
-            </div>
-            <div class="flex rel">
-              <div class="div1">
-                <p class="product-name col fs-sm">Long Sleeve Casual for Men</p>
-                <span>
-                  <small class="product-price">$15.25</small>
-                  <span class="col fs-sm">
-                    <span class="strike">$30.50</span>
-                    -50%</span
-                  > </span
-                ><br />
-                <p class="rating fs-sm">
-                  <i class="fa-solid fa-star col3"></i>
-                  <i class="fa-solid fa-star col3"></i>
-                  <i class="fa-solid fa-star col3"></i>
-                  <i class="fa-solid fa-star col3"></i>
-                  <i class="fa-solid fa-star col3"></i>
-                  (100)
-                </p>
-              </div>
-              <div class="div2">
-                <button class="wish btn-1 fs-1 col1">
-                  <i class="fa-regular fa-heart"></i>
-                </button>
-                <br /><br />
-                <button class="btn-1 fs-1 col1 cart-add">
-                  <i class="fa-solid fa-cart-plus"></i>
-                </button>
-              </div>
-            </div>
-          </div>
-          <div class="product-card">
-            <div class="text-center">
-              <img src="image/img3.jpeg" alt="" class="product-img" />
-            </div>
-            <div class="flex rel">
-              <div class="div1">
-                <p class="product-name col fs-sm">Long Sleeve Casual for Men</p>
-                <span>
-                  <small class="product-price">$15.25</small>
-                  <span class="col fs-sm">
-                    <span class="strike">$30.50</span>
-                    -50%</span
-                  > </span
-                ><br />
-                <p class="rating fs-sm">
-                  <i class="fa-solid fa-star col3"></i>
-                  <i class="fa-solid fa-star col3"></i>
-                  <i class="fa-solid fa-star col3"></i>
-                  <i class="fa-solid fa-star col3"></i>
-                  <i class="fa-solid fa-star col3"></i>
-                  (100)
-                </p>
-              </div>
-              <div class="div2">
-                <button class="wish btn-1 fs-1 col1">
-                  <i class="fa-regular fa-heart"></i>
-                </button>
-                <br /><br />
-                <button class="btn-1 fs-1 col1 cart-add">
-                  <i class="fa-solid fa-cart-plus"></i>
-                </button>
-              </div>
-            </div>
-          </div>
-          <div class="product-card">
-            <div class="text-center">
-              <img src="image/img3.jpeg" alt="" class="product-img" />
-            </div>
-            <div class="flex rel">
-              <div class="div1">
-                <p class="product-name col fs-sm">Long Sleeve Casual for Men</p>
-                <span>
-                  <small class="product-price">$15.25</small>
-                  <span class="col fs-sm">
-                    <span class="strike">$30.50</span>
-                    -50%</span
-                  > </span
-                ><br />
-                <p class="rating fs-sm">
-                  <i class="fa-solid fa-star col3"></i>
-                  <i class="fa-solid fa-star col3"></i>
-                  <i class="fa-solid fa-star col3"></i>
-                  <i class="fa-solid fa-star col3"></i>
-                  <i class="fa-solid fa-star col3"></i>
-                  (100)
-                </p>
-              </div>
-              <div class="div2">
-                <button class="wish btn-1 fs-1 col1">
-                  <i class="fa-regular fa-heart"></i>
-                </button>
-                <br /><br />
-                <button class="btn-1 fs-1 col1 cart-add">
-                  <i class="fa-solid fa-cart-plus"></i>
-                </button>
-              </div>
-            </div>
-          </div>
+        <?php
+
+                $fetchProduct= mysqli_query($conn, "SELECT * FROM products");
+                while ( $row_data = mysqli_fetch_assoc($fetchProduct)) {
+                    $title = $row_data['product_title'];
+                    $price= $row_data['product_price'];
+                    $slash_price= $row_data['slashed_price'];
+                    $image1= $row_data['product_image1'];
+                    $discount_percent = round($price/$slash_price * 100);
+                    $star  = $row_data['star_rating'];
+
+                    
+
+                    switch ($star) {
+                      case '1':
+                        $data = "<i class='fa-solid fa-star col3'></i>
+                                (20)";
+                        break;
+                      case '2':
+                          $data =  "<i class='fa-solid fa-star col3'></i>
+                                  <i class='fa-solid fa-star col3'></i>
+                                  (40)";
+                          break;
+                      case '3':
+                            $data =  "<i class='fa-solid fa-star col3'></i>
+                                    <i class='fa-solid fa-star col3'></i>
+                                    <i class='fa-solid fa-star col3'></i>
+                                    (60)";
+                            break;
+                            case '4':
+                              $data =  "<i class='fa-solid fa-star col3'></i>
+                                      <i class='fa-solid fa-star col3'></i>
+                                      <i class='fa-solid fa-star col3'></i>
+                                      <i class='fa-solid fa-star col3'></i>
+                                      (80)";
+                              break;
+                              case '5':
+                                $data = "<i class='fa-solid fa-star col3'></i>
+                                        <i class='fa-solid fa-star col3'></i>
+                                        <i class='fa-solid fa-star col3'></i>
+                                        <i class='fa-solid fa-star col3'></i>
+                                        <i class='fa-solid fa-star col3'></i>
+                                        (100)";
+                                break;
+                      default:
+                        $data = "No rating yet.";
+                        break;
+                    }
+
+
+                    echo "
+                        <div class='product-card'>
+                          <div class='text-center'>
+                            <img src='./admin_area/product_images/$image1' alt='' class='product-img' />
+                          </div>
+                          <div class='flex rel'>
+                            <div class='div1'>
+                              <p class='product-name col fs-sm'>$title</p>
+                              <span>
+                                <small class='product-price'>&#8358;$price</small>
+                                <span class='col fs-sm'>
+                                  <span class='strike'>&#8358;$slash_price</span>
+                                   -$discount_percent%</span
+                                > </span
+                              ><br />
+                              <p class='rating fs-sm'>
+                                $data
+                              </p>
+                            </div>
+                            <div class='div2'>
+                              <button class='wish btn-1 fs-1 col1'>
+                                <i class='fa-regular fa-heart'></i>
+                              </button>
+                              <br /><br />
+                              <button class='btn-1 fs-1 col1 cart-add'>
+                                <i class='fa-solid fa-cart-plus'></i>
+                              </button>
+                            </div>
+                          </div>
+                        </div>";
+                }   
+      ?>    
+
         </section>
         <section class="grid grid-col-4" id="sec2">
           <div class="product-card">
@@ -480,7 +292,7 @@
               <div class="div1">
                 <p class="product-name col fs-sm">Long Sleeve Casual for Men</p>
                 <span>
-                  <small class="product-price">$15.25</small>
+                  <small class="product-price">&#8358;15.25</small>
                   <span class="col fs-sm">
                     <span class="strike">$30.50</span>
                     -50%</span
