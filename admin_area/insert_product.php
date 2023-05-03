@@ -90,7 +90,7 @@ if($product_title=='' or $product_desc=='' or $product_price=='' or $product_key
                 while ( $row_data = mysqli_fetch_assoc($selectCategory)) {
                     $category_title = $row_data['category_title'];
                     $category_id = $row_data['category_id'];
-                    echo   "<option value='$category_title'>
+                    echo   "<option value='$category_id'>
                                 $category_title
                             </option>" ;
           
@@ -105,7 +105,7 @@ if($product_title=='' or $product_desc=='' or $product_price=='' or $product_key
                 while ( $row_data = mysqli_fetch_assoc($selectBrand)) {
                     $brand_title = $row_data['brand_title'];
                     $brand_id = $row_data['brand_id'];
-                    echo   "<option value='$brand_title'>
+                    echo   "<option value='$brand_id'>
                                 $brand_title
                             </option>"  ;
           

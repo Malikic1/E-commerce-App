@@ -62,3 +62,16 @@ category.addEventListener("click", function () {
   categorySlide.classList.toggle("hide");
   console.log("clicked-2");
 });
+
+var search = document.getElementById("search");
+var searchForm = document.getElementById("searchForm");
+search.addEventListener("click", function () {
+  searchForm.style.display = "block";
+  console.log("clicked");
+});
+
+var close = document.getElementById("close");
+close.addEventListener("click", function () {
+  searchForm.style.display = "none";
+  console.log("clicked");
+});

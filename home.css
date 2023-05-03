@@ -126,13 +126,36 @@ aside button {
   display: none;
 }
 .categories {
-  background-color: rgb(255, 255, 255);
-  position: absolute;
-  top: 0;
   right: 0%;
   width: 300px;
   height: 100vh;
+}
+
+.search,
+.container2 {
+  background-color: #ececec;
+}
+.categories,
+.search {
+  position: fixed;
+  top: 0;
   z-index: 5;
+}
+.search {
+  width: calc(100% - 15px);
+  padding: 20px 5px 10px 10px;
+  opacity: 0.8;
+  display: none;
+}
+.inp1 {
+  width: calc(100% - 7rem);
+  height: 1.8rem;
+  border: solid blueviolet 2px;
+}
+#close {
+  position: absolute;
+  top: 3px;
+  right: 10px;
 }
 .categories h2 {
   padding-left: 0.5rem;
@@ -168,9 +191,16 @@ main {
 .btn {
   width: 8rem;
   padding: 12px 5px 12px 5px;
+}
+.btn,
+.btn-3 {
   background-color: blueviolet;
   border-radius: 5px;
   color: white;
+}
+.btn-3 {
+  width: 5rem;
+  padding: 8px 3px 8px 3px;
 }
 .aside {
   width: 9.5rem;
@@ -216,7 +246,7 @@ main {
 .container2 {
   width: 100%;
   justify-content: space-evenly;
-  background-color: #ececec;
+
   left: 0%;
   position: absolute;
 }
