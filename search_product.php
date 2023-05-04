@@ -215,26 +215,6 @@ include('function/common_function.php');
       <button class="btn rel btn-2"><b>View all</b></button>
     </div>
     <br /><br /><br />
-
-    <div class="product1">
-      <section class="text-center">
-        <h2>Featured Products</h2>
-        <p>Get your desired product from featured Products!</p>
-        <p>
-          <button class="col1 btn-1" id="show1"><b>Men</b></button
-          >&nbsp;&nbsp;
-          <button class="btn-1" id="show2"><b>Women</b></button>&nbsp;&nbsp;
-          <button class="btn-1" id="show3"><b>Kids</b></button>
-        </p>
-      </section>
-      <br /><br />
-      <section class="grid grid-col-4" id="section1">
-
-      featured Products
-      </section>
-      <br />
-      <button class="btn rel btn-2"><b>View all</b></button>
-    </div>
     <br /><br />
     <div class="product1">
       <section class="text-center">
